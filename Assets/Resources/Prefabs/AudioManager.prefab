@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9174811224105598349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9174811224105598348}
+  - component: {fileID: 9174811224105598451}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9174811224105598348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174811224105598349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9174811224105598451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174811224105598349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b975674cb9821d04b979e359a8f54bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundType: 0
+    audioClip: {fileID: 8300000, guid: 4adb4b5e9707ebc45a42d7ca4fb40b59, type: 3}
+    volume: 1
+    pitch: 1
+    playonAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - soundType: 2
+    audioClip: {fileID: 8300000, guid: 8e693d4cf55caa04690079cb92cc7882, type: 3}
+    volume: 1
+    pitch: 1
+    playonAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - soundType: 3
+    audioClip: {fileID: 8300000, guid: 1e996b4efb78dc0448782eabd666a48e, type: 3}
+    volume: 0.75
+    pitch: 1
+    playonAwake: 1
+    loop: 1
+    source: {fileID: 0}
+  - soundType: 1
+    audioClip: {fileID: 8300000, guid: 33605104c10232847adb195964ce2e21, type: 3}
+    volume: 1
+    pitch: 1
+    playonAwake: 0
+    loop: 0
+    source: {fileID: 0}
+  - soundType: 4
+    audioClip: {fileID: 8300000, guid: 3b7c5689245f1e947aae462a9a89cec3, type: 3}
+    volume: 1
+    pitch: 1
+    playonAwake: 0
+    loop: 0
+    source: {fileID: 0}
